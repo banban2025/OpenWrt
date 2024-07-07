@@ -35,7 +35,7 @@ function git_sparse_clone() {
 # 科学上网插件
 rm -rf package/helloworld
 git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
-git clone --depth=1 https://github.com/haiibo/openwrt-packages package/openwrt-packages
+#git clone --depth=1 https://github.com/haiibo/openwrt-packages package/openwrt-packages
 #git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
 #git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 #git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
